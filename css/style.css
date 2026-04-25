@@ -1,0 +1,46 @@
+bady {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#evelation-map {
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  border-bottom: 4px solid #333;
+  padding-bottom: 2px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 2px;
+  width: 50px;
+}
+
+.block {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #333;
+}
+
+.building {
+  background-color: #e0e0e0;
+  border: 1px solid #999;
+}
+
+.water {
+  background-color: #bbdefb;
+  border: 1px dashed #64b5f6;
+  color: #1565c0;
+}
+
+.empty {
+  background-color: transparent;
+}
